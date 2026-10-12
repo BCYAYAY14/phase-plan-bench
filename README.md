@@ -16,6 +16,7 @@ The benchmark behind [phase-plan](https://github.com/BCYAYAY14/phase-plan), a Cl
 | `bench/swift_tests.py` | Runs a Swift package's tests one per process (for Swift tasks) |
 | `bench/rework.py` | Integration rework: cost and edits after the first full test run |
 | `tally.py`, `prices.json` | Tokens and dollars per run from Claude Code's transcripts |
+| `evals/` | The skill's trigger and behaviour evals in skill-creator's format, with two small fixture repos |
 
 These scripts run git, `claude -p`, the task's own tests and the bundled reference solutions; read them before running. They need the skill installed: `npx skills add BCYAYAY14/phase-plan -g -a claude-code`.
 
